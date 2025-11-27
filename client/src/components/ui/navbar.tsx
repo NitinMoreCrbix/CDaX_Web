@@ -7,9 +7,9 @@ export default function Navbar() {
   return (
     <nav className="h-[72px] border-b border-gray-200 bg-white px-6 flex items-center gap-4 shadow-sm sticky top-0 z-50">
       {/* Logo */}
-      <Link href="/" className="flex-shrink-0">
+      <Link href="/home" className="flex-shrink-0">
           <div className="font-serif text-2xl font-bold text-brand-dark">
-            Replit<span className="text-brand-medium">U</span>
+            CDaX<span className="text-brand-medium">.</span>
           </div>
       </Link>
 
@@ -31,8 +31,8 @@ export default function Navbar() {
 
       {/* Links */}
       <div className="hidden lg:flex items-center gap-4 text-sm font-medium text-gray-700">
-        <Link href="/business" className="hover:text-brand-dark">ReplitU Business</Link>
-        <Link href="/teach" className="hover:text-brand-dark">Teach on ReplitU</Link>
+        <Link href="/business" className="hover:text-brand-dark">CDaX Business</Link>
+        <Link href="/teach" className="hover:text-brand-dark">Teach on CDaX</Link>
       </div>
 
       {/* Icons */}

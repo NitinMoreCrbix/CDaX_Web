@@ -39,7 +39,7 @@ export default function HomePage() {
       <section className="bg-brand-bg/30 py-12 border-b border-brand-light/30">
         <div className="container mx-auto px-6">
           <div className="flex items-end gap-3 mb-6">
-             <h2 className="text-2xl font-bold font-serif text-brand-text">Let's start learning, Rohit</h2>
+             <h2 className="text-2xl font-bold font-serif text-brand-text">Let's start learning, User</h2>
              <span className="text-2xl pb-1">👋</span>
              <a href="#" className="ml-auto text-brand-dark font-bold text-sm hover:underline">My learning</a>
           </div>
