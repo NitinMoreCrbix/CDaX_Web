@@ -7,12 +7,10 @@ export default function Navbar() {
   return (
     <nav className="h-[72px] border-b border-gray-200 bg-white px-6 flex items-center gap-4 shadow-sm sticky top-0 z-50">
       {/* Logo */}
-      <Link href="/">
-        <a className="flex-shrink-0">
+      <Link href="/" className="flex-shrink-0">
           <div className="font-serif text-2xl font-bold text-brand-dark">
             Replit<span className="text-brand-medium">U</span>
           </div>
-        </a>
       </Link>
 
       {/* Categories */}
@@ -33,14 +31,14 @@ export default function Navbar() {
 
       {/* Links */}
       <div className="hidden lg:flex items-center gap-4 text-sm font-medium text-gray-700">
-        <Link href="/business"><a className="hover:text-brand-dark">ReplitU Business</a></Link>
-        <Link href="/teach"><a className="hover:text-brand-dark">Teach on ReplitU</a></Link>
+        <Link href="/business" className="hover:text-brand-dark">ReplitU Business</Link>
+        <Link href="/teach" className="hover:text-brand-dark">Teach on ReplitU</Link>
       </div>
 
       {/* Icons */}
       <div className="flex items-center gap-3 ml-auto">
-        <Link href="/my-learning">
-           <a className="hidden md:block text-sm font-medium text-gray-700 hover:text-brand-dark">My Learning</a>
+        <Link href="/my-learning" className="hidden md:block text-sm font-medium text-gray-700 hover:text-brand-dark">
+           My Learning
         </Link>
         <Button variant="ghost" size="icon" className="text-gray-600 hover:bg-gray-100 hidden sm:flex">
           <Heart className="w-5 h-5" />
