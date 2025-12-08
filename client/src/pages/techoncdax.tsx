@@ -73,17 +73,17 @@ export default function TechOnCdax() {
                     <div className="grid md:grid-cols-3 gap-8">
                         {[
                             {
-                                icon: "📚",
+                                icon: "",
                                 title: "Expert-Led Courses",
                                 description: "Learn from industry professionals with real-world experience and proven track records."
                             },
                             {
-                                icon: "🎯",
+                                icon: "",
                                 title: "Hands-On Projects",
                                 description: "Build real projects that showcase your skills and add value to your professional portfolio."
                             },
                             {
-                                icon: "🏆",
+                                icon: "",
                                 title: "Career Support",
                                 description: "Get job placement assistance, resume reviews, and interview preparation from our career experts."
                             }

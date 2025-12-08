@@ -37,7 +37,7 @@ export default function GradientCanvas() {
         dx: (Math.random() - 0.5) * 0.35,
         dy: (Math.random() - 0.5) * 0.35,
 
-        // ⭐ STRIPE MULTI COLORS ⭐
+        // STRIPE MULTI COLORS
         color: [
           "rgba(255, 75, 85, 0.35)",   // Pink-red
           "rgba(255, 150, 80, 0.35)",  // Orange
