@@ -31,8 +31,8 @@ export default function Navbar() {
 
       {/* Links */}
       <div className="hidden lg:flex items-center gap-4 text-sm font-medium text-gray-700">
-        <Link href="/business" className="hover:text-brand-dark">CDaX Business</Link>
-        <Link href="/teach" className="hover:text-brand-dark">Teach on CDaX</Link>
+        <Link href="/cdax-business-demo" className="hover:text-brand-dark">CDaX Business</Link>
+        <Link href="/tech-on-cdax" className="hover:text-brand-dark">Teach on CDaX</Link>
       </div>
 
       {/* Icons */}
@@ -52,9 +52,11 @@ export default function Navbar() {
         </Button>
         
         {/* Profile */}
+        <Link href="/profile">
         <div className="w-8 h-8 rounded-full bg-brand-dark text-white flex items-center justify-center font-bold text-sm cursor-pointer hover:opacity-90">
           R
         </div>
+        </Link>
       </div>
     </nav>
   );

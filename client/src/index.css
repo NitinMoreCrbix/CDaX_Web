@@ -64,3 +64,45 @@
     @apply font-sans antialiased bg-brand-bg text-brand-text;
   }
 }
+
+@keyframes waveMove {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-wave {
+  animation: waveMove 12s linear infinite;
+}
+
+:root {
+  --navbar-height: 72px; /* default, overwritten by JS at runtime */
+}
+
+/* Keep header visible on scroll but do not overlay content */
+header, nav, .navbar, .site-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--navbar-height);
+  z-index: 9999;
+  background: rgba(255,255,255,0.92); /* adjust if you want more/less transparency */
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+}
+
+/* Ensure page content starts below the fixed navbar */
+body, .pageWrapper, .main {
+  box-sizing: border-box;
+  padding-top: var(--navbar-height);
+  width: 100%;
+}
+
+/* keep previous overflow-x hidden rule if present */
+html, body {
+  overflow-x: hidden;
+}
