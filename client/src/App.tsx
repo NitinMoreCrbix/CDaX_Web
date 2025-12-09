@@ -10,6 +10,7 @@ import CourseDetails from "./pages/CourseDetails";
 import ProfilePage from "./pages/ProfilePage";
 import CdaxBusinessDemo from "./pages/CdaxBusinessDemo";
 import TechOnCdax from "./pages/techoncdax";
+import MyLearning from "./pages/MyLearning";
 
 function Router() {
   return (
@@ -45,6 +46,7 @@ function App() {
           <Route path="/profile" component={ProfilePage} />
           <Route path="/cdax-business-demo" component={CdaxBusinessDemo} />
           <Route path="/tech-on-cdax" component={TechOnCdax} />
+          <Route path="/my-learning" component={MyLearning} />
           <Route path="/" >
             <Redirect to="/auth" />
           </Route>
