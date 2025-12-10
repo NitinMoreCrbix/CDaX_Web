@@ -16,7 +16,7 @@ export default function HomePage() {
       rating: 4.8,
       reviews: "3,587",
       price: "₹299",
-      oldPrice: "₹499",
+      oldPrice: "₹299",
       image:
         "https://images.unsplash.com/photo-1617042375876-a13e36732a04?w=500&q=80",
       tag: "Bestseller",
@@ -28,7 +28,7 @@ export default function HomePage() {
       rating: 4.9,
       reviews: "12,400",
       price: "₹299",
-      oldPrice: "₹499",
+      oldPrice: "₹299",
       image:
         "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&q=80",
       tag: "Bestseller",
@@ -40,9 +40,9 @@ export default function HomePage() {
       rating: 4.5,
       reviews: "8,900",
       price: "₹299",
-      oldPrice: "₹499",
+      oldPrice: "₹299",
       image:
-        "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=500&q=80",
+        "https://images.unsplash.com/photo-1555929963-aa79dcee981c?w=500&q=80",
       tag: "New",
     },
     {
@@ -52,7 +52,7 @@ export default function HomePage() {
       rating: 4.7,
       reviews: "5,200",
       price: "₹299",
-      oldPrice: "₹499",
+      oldPrice: "₹299",
       image:
         "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=500&q=80",
       tag: "New",

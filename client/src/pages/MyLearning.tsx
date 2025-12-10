@@ -44,7 +44,7 @@ const ENROLLED_COURSES = [
     totalLessons: 36,
     completedLessons: 36,
     duration: "5 Months",
-    image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=500&q=80",
+    image: "https://images.unsplash.com/photo-1555929963-aa79dcee981c?w=500&q=80",
     lastAccessed: "1 week ago",
     nextLesson: "Course Completed",
     estimatedTime: "0 min",
